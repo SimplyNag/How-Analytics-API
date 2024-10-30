@@ -1,0 +1,21 @@
+{
+  "name": "how-analytics-api",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "packageManager": "yarn@4.5.1",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.4",
+    "typescript": "^5.6.3"
+  }
+}
